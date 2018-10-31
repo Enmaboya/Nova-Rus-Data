@@ -1,0 +1,39 @@
+{
+    "name": "enmaboya/nova-russian-datepicker",
+    "description": "Russian datepicker for Laravel Nova",
+    "keywords": [
+        "laravel",
+        "nova",
+        "russian",
+        "date",
+        "picker",
+        "datepicker"
+    ],
+    "authors": [
+        {
+            "name": "Vitaly D.",
+            "email": "vita-dubov@yandex.ru"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoffreyC22\\RussianDatepicker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Enmaboya\\RussianDatepicker\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

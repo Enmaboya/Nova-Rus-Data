@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JoffreyC22\\RussianDatepicker\\": "src/"
+            "Enmaboya\\RussianDatepicker\\": "src/"
         }
     },
     "extra": {
